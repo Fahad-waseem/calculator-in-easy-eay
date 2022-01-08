@@ -1,0 +1,38 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap'); */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+/* navbar */
+
+.border-1{
+    border-style: solid;
+}
+.min_height{
+    height: 90%;
+}
+.center_this{
+    min-height: calc(100vh - 112px);
+}
+/* Global */
+.bg_cus{
+    background-color: #1D3557 !important;
+}
+.btn_cus{
+    min-width: 250px ;
+    background-color: #ff7b00;
+    border:none;
+    color: black;
+    padding: 10px;
+    margin: 2px;
+}
+.btn_cus:hover{
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
+.check{
+    text-transform: capitalize;
+}
